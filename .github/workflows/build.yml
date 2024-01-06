@@ -6,7 +6,7 @@ on:
       - master
   schedule:
     - cron: "0 12 * * 6"  # 8 PM CST every Saturday
-  workflow_dispatch:
+  #workflow_dispatch:     # 如果要能手工执行，请去掉此行注释
 permissions:
   contents: write
 
